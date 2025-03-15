@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advogado Trabalhista - Defenda seus Direitos</title>
+    <meta name="description" content="Reivindique suas verbas rescisórias, FGTS, horas extras e muito mais com a ajuda de advogados especializados em direito trabalhista.">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,21 +13,27 @@
             padding: 0;
             background-color: #000;
             color: #fff;
+            line-height: 1.6;
         }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            text-align: center;
             padding: 20px;
+            text-align: center;
         }
+
         .hero {
             background: #111;
             padding: 50px 20px;
         }
+
         .hero h1 {
             color: #d4af37;
             font-size: 2.5em;
+            margin-bottom: 20px;
         }
+
         .cta-button {
             background-color: #d4af37;
             color: #000;
@@ -35,20 +43,40 @@
             border-radius: 5px;
             display: inline-block;
             margin-top: 20px;
+            transition: background-color 0.3s ease;
         }
+
         .cta-button:hover {
             background-color: #b8912f;
         }
+
         .section {
             padding: 40px 20px;
         }
+
         .footer {
             background: #111;
             padding: 20px;
             text-align: center;
         }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            .section {
+                padding: 20px 10px;
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="hero">
@@ -68,8 +96,10 @@
 
         <div class="section">
             <h2>Depoimentos de Clientes</h2>
-            <p>"Consegui recuperar todos os meus direitos! Profissionais excelentes!" - João S.</p>
-            <p>"Transparência e compromisso. Recomendo!" - Maria A.</p>
+            <blockquote>
+                <p>"Consegui recuperar todos os meus direitos! Profissionais excelentes!" - João S.</p>
+                <p>"Transparência e compromisso. Recomendo!" - Maria A.</p>
+            </blockquote>
         </div>
 
         <div class="footer">
@@ -77,4 +107,5 @@
         </div>
     </div>
 </body>
+
 </html>
